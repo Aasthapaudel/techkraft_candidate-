@@ -7,16 +7,23 @@ Internal candidate scoring and review dashboard for TechKraft's recruitment work
 ## Quick Start
 
 ### Prerequisites
-- Docker & Docker Compose, **or** Python 3.12+ and Node 20+
+- Docker & Docker Compose
 
-### Option A — Docker Compose (recommended)
+### Quick Start
 
+1. **Clone the repository:**
 ```bash
-git clone <your-repo-url>
+git clone git@github.com:Aasthapaudel/techkraft_candidate-.git
 cd techkraft
+```
 
+2. **Setup environment:**
+```bash
 cp .env.example .env          # uses sensible defaults for local dev
+```
 
+3. **Launch with Docker:**
+```bash
 docker compose up --build
 ```
 
